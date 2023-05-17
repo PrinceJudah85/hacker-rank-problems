@@ -3,7 +3,6 @@
 function calculateMedian(arr) {
   let median;
   const sortedArr = arr.sort((a, b) => a - b);
-  console.log("sortedArr", sortedArr);
 
   for (let i in sortedArr) {
     if (sortedArr.length % 2 !== 0) {
