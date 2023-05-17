@@ -1,3 +1,5 @@
+// STILL NEEDS WORK. SOLUTION NOT RIGHT
+
 function maximizeUpperLeft(matrix) {
   const n = matrix.length / 2; // assuming matrix is 2n x 2n
   let maxSum = 0;
